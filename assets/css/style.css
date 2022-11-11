@@ -8,13 +8,14 @@ body {
     background-color: #d9dcd6;
 }
 
+/*Changing to Header, allows for the content within the header, as h1, nav, li to be adjusted with the below styling. */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* h1 now only changes Horiseon logo */
 header h1 {
     display: inline-block;
     font-size: 48px;
@@ -86,6 +87,7 @@ main {
     background-color: #2589bd;
 }
 
+/* Labeling it as a class allows for the cut down of the lines of code, that had the same affect on the lines that classified under class=benefit */
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
